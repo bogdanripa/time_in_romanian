@@ -1,0 +1,27 @@
+{
+  "uuid": "f9579861-408e-4ae0-998c-c4371de56d96",
+  "shortName": "Ora in Romana",
+  "longName": "Ora in Romana",
+  "companyName": "Bogdan Ripa",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_fuzzy_watch.png"
+      },
+      {
+        "type": "font",
+        "name": "FONT_FUTURA_30",
+        "file": "fonts/Aller.ttf"
+      }
+    ]
+  }
+}
