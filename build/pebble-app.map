@@ -614,7 +614,7 @@ LOAD /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-
  .pbl_header    0x0000000000000000       0x82 appinfo.auto.c.9.o
                 0x0000000000000000                __pbl_app_info
 
-.text           0x0000000000000084      0x615
+.text           0x0000000000000084      0x604
  *(.text)
  .text          0x0000000000000084       0x14 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
  *(.text.*)
@@ -630,132 +630,132 @@ LOAD /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-
  .text.append_string
                 0x0000000000000250       0x1c src/num2words.c.9.o
  .text.fuzzy_time_to_words
-                0x000000000000026c      0x224 src/num2words.c.9.o
+                0x000000000000026c      0x210 src/num2words.c.9.o
                 0x000000000000026c                fuzzy_time_to_words
  .text.app_event_loop
-                0x0000000000000490        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000490                app_event_loop
+                0x000000000000047c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x000000000000047c                app_event_loop
  .text.fonts_load_custom_font
-                0x000000000000049c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x000000000000049c                fonts_load_custom_font
+                0x0000000000000488        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000488                fonts_load_custom_font
  .text.layer_add_child
-                0x00000000000004a8        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004a8                layer_add_child
+                0x0000000000000494        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000494                layer_add_child
  .text.layer_get_frame
-                0x00000000000004b4        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004b4                layer_get_frame
+                0x00000000000004a0        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004a0                layer_get_frame
  .text.localtime
-                0x00000000000004c0        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004c0                localtime
- .text.memset   0x00000000000004cc        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004cc                memset
+                0x00000000000004ac        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004ac                localtime
+ .text.memset   0x00000000000004b8        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004b8                memset
  .text.resource_get_handle
-                0x00000000000004d8        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004d8                resource_get_handle
- .text.strcat   0x00000000000004e4        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004e4                strcat
- .text.strlen   0x00000000000004f0        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004f0                strlen
- .text.strncat  0x00000000000004fc        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000004fc                strncat
+                0x00000000000004c4        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004c4                resource_get_handle
+ .text.strcat   0x00000000000004d0        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004d0                strcat
+ .text.strlen   0x00000000000004dc        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004dc                strlen
+ .text.strncat  0x00000000000004e8        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004e8                strncat
  .text.text_layer_create
-                0x0000000000000508        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000508                text_layer_create
+                0x00000000000004f4        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x00000000000004f4                text_layer_create
  .text.text_layer_destroy
-                0x0000000000000514        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000514                text_layer_destroy
+                0x0000000000000500        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000500                text_layer_destroy
  .text.text_layer_get_layer
-                0x0000000000000520        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000520                text_layer_get_layer
+                0x000000000000050c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x000000000000050c                text_layer_get_layer
  .text.text_layer_set_background_color
-                0x000000000000052c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x000000000000052c                text_layer_set_background_color
+                0x0000000000000518        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000518                text_layer_set_background_color
  .text.text_layer_set_font
-                0x0000000000000538        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000538                text_layer_set_font
+                0x0000000000000524        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000524                text_layer_set_font
  .text.text_layer_set_text
-                0x0000000000000544        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000544                text_layer_set_text
+                0x0000000000000530        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000530                text_layer_set_text
  .text.text_layer_set_text_color
-                0x0000000000000550        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000550                text_layer_set_text_color
+                0x000000000000053c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x000000000000053c                text_layer_set_text_color
  .text.tick_timer_service_subscribe
-                0x000000000000055c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x000000000000055c                tick_timer_service_subscribe
- .text.time     0x0000000000000568        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000568                time
+                0x0000000000000548        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000548                tick_timer_service_subscribe
+ .text.time     0x0000000000000554        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000554                time
  .text.window_create
-                0x0000000000000574        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000574                window_create
+                0x0000000000000560        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000560                window_create
  .text.window_destroy
-                0x0000000000000580        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000580                window_destroy
+                0x000000000000056c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x000000000000056c                window_destroy
  .text.window_get_root_layer
-                0x000000000000058c        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x000000000000058c                window_get_root_layer
+                0x0000000000000578        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000578                window_get_root_layer
  .text.window_set_background_color
-                0x0000000000000598        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x0000000000000598                window_set_background_color
+                0x0000000000000584        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000584                window_set_background_color
  .text.window_stack_push
-                0x00000000000005a4        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
-                0x00000000000005a4                window_stack_push
+                0x0000000000000590        0xc /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+                0x0000000000000590                window_stack_push
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00000000000005b0       0xe9 src/num2words.c.9.o
-                                         0xea (size before relaxing)
+                0x000000000000059c       0xec src/num2words.c.9.o
+                                         0xed (size before relaxing)
 
-.glue_7         0x000000000000069c        0x0
+.glue_7         0x0000000000000688        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x000000000000069c        0x0
+.glue_7t        0x0000000000000688        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x000000000000069c        0x0
+.vfp11_veneer   0x0000000000000688        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x000000000000069c        0x0
+.v4_bx          0x0000000000000688        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x000000000000069c        0x0
+.iplt           0x0000000000000688        0x0
  .iplt          0x0000000000000000        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x000000000000069c        0x0
+.rel.dyn        0x0000000000000688        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x000000000000069c       0x7c
+.data           0x0000000000000688       0x7c
  *(.data)
- .data          0x000000000000069c        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x000000000000069c        0x4 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x000000000000069c                __dso_handle
- .data          0x00000000000006a0        0x0 src/fuzzy_time.c.9.o
- .data          0x00000000000006a0        0x0 src/num2words.c.9.o
- .data          0x00000000000006a0        0x0 appinfo.auto.c.9.o
- .data          0x00000000000006a0        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
- .data          0x00000000000006a0        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x00000000000006a0        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000000688        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000000688        0x4 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000688                __dso_handle
+ .data          0x000000000000068c        0x0 src/fuzzy_time.c.9.o
+ .data          0x000000000000068c        0x0 src/num2words.c.9.o
+ .data          0x000000000000068c        0x0 appinfo.auto.c.9.o
+ .data          0x000000000000068c        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Pebble/lib/libpebble.a(tmp9Q2g01pebble.o)
+ .data          0x000000000000068c        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x000000000000068c        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
  .data.rel.ro.local.ONES
-                0x00000000000006a0       0x28 src/num2words.c.9.o
+                0x000000000000068c       0x28 src/num2words.c.9.o
  .data.rel.ro.local.TENS
-                0x00000000000006c8       0x28 src/num2words.c.9.o
+                0x00000000000006b4       0x28 src/num2words.c.9.o
  .data.rel.ro.local.TEENS
-                0x00000000000006f0       0x28 src/num2words.c.9.o
+                0x00000000000006dc       0x28 src/num2words.c.9.o
 
-.igot.plt       0x0000000000000718        0x0
+.igot.plt       0x0000000000000704        0x0
  .igot.plt      0x0000000000000000        0x0 /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.bss            0x0000000000000718       0x60
+.bss            0x0000000000000704       0x60
  *(.bss)
  *(.bss.*)
- .bss.s_data    0x0000000000000718       0x60 src/fuzzy_time.c.9.o
+ .bss.s_data    0x0000000000000704       0x60 src/fuzzy_time.c.9.o
 
 DISCARD
  libc.a(*)
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Examples/watchfaces/time_in_romanian/build/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/Anca/git/time_in_romanian/build/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -784,19 +784,19 @@ OUTPUT(/Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Examples/watchfaces/time_in_ro
  .comment       0x0000000000000000       0x4f appinfo.auto.c.9.o
  .comment       0x0000000000000000       0x4f /Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000     0x11f7
+.debug_info     0x0000000000000000     0x11cc
  .debug_info    0x0000000000000000      0x84d src/fuzzy_time.c.9.o
- .debug_info    0x000000000000084d      0x655 src/num2words.c.9.o
- .debug_info    0x0000000000000ea2      0x355 appinfo.auto.c.9.o
+ .debug_info    0x000000000000084d      0x62a src/num2words.c.9.o
+ .debug_info    0x0000000000000e77      0x355 appinfo.auto.c.9.o
 
-.debug_abbrev   0x0000000000000000      0x4b4
+.debug_abbrev   0x0000000000000000      0x4bf
  .debug_abbrev  0x0000000000000000      0x2ac src/fuzzy_time.c.9.o
- .debug_abbrev  0x00000000000002ac      0x15d src/num2words.c.9.o
- .debug_abbrev  0x0000000000000409       0xab appinfo.auto.c.9.o
+ .debug_abbrev  0x00000000000002ac      0x168 src/num2words.c.9.o
+ .debug_abbrev  0x0000000000000414       0xab appinfo.auto.c.9.o
 
-.debug_loc      0x0000000000000000      0x705
+.debug_loc      0x0000000000000000      0x715
  .debug_loc     0x0000000000000000       0xe3 src/fuzzy_time.c.9.o
- .debug_loc     0x00000000000000e3      0x622 src/num2words.c.9.o
+ .debug_loc     0x00000000000000e3      0x632 src/num2words.c.9.o
 
 .debug_aranges  0x0000000000000000       0x78
  .debug_aranges
@@ -810,18 +810,18 @@ OUTPUT(/Users/Anca/pebble-dev/PebbleSDK-2.0-BETA4/Examples/watchfaces/time_in_ro
  .debug_ranges  0x0000000000000000       0x20 src/fuzzy_time.c.9.o
  .debug_ranges  0x0000000000000020       0x20 src/num2words.c.9.o
 
-.debug_line     0x0000000000000000      0x5f3
- .debug_line    0x0000000000000000      0x2da src/fuzzy_time.c.9.o
- .debug_line    0x00000000000002da      0x1f7 src/num2words.c.9.o
- .debug_line    0x00000000000004d1      0x122 appinfo.auto.c.9.o
+.debug_line     0x0000000000000000      0x5bd
+ .debug_line    0x0000000000000000      0x2ab src/fuzzy_time.c.9.o
+ .debug_line    0x00000000000002ab      0x1f0 src/num2words.c.9.o
+ .debug_line    0x000000000000049b      0x122 appinfo.auto.c.9.o
 
-.debug_str      0x0000000000000000      0x765
- .debug_str     0x0000000000000000      0x483 src/fuzzy_time.c.9.o
-                                        0x4e5 (size before relaxing)
- .debug_str     0x0000000000000483       0xf3 src/num2words.c.9.o
-                                        0x21d (size before relaxing)
- .debug_str     0x0000000000000576      0x1ef appinfo.auto.c.9.o
-                                        0x35f (size before relaxing)
+.debug_str      0x0000000000000000      0x736
+ .debug_str     0x0000000000000000      0x454 src/fuzzy_time.c.9.o
+                                        0x4b6 (size before relaxing)
+ .debug_str     0x0000000000000454       0xf3 src/num2words.c.9.o
+                                        0x1ee (size before relaxing)
+ .debug_str     0x0000000000000547      0x1ef appinfo.auto.c.9.o
+                                        0x330 (size before relaxing)
 
 .debug_frame    0x0000000000000000       0xc8
  .debug_frame   0x0000000000000000       0x5c src/fuzzy_time.c.9.o

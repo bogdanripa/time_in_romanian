@@ -8,8 +8,8 @@ static const char* const ONES[] = {
   "trei",
   "patru",
   "cinci",
-  "şase",
-  "şapte",
+  "sase",
+  "sapte",
   "opt",
   "nouă"
 };
@@ -23,7 +23,7 @@ static const char* const TEENS[] ={
   "cinspe",
   "saispe",
   "saptespe",
-  "optâspe",
+  "optaspe",
   "nouăspe"
 };
 
@@ -40,7 +40,7 @@ static const char* const TENS[] = {
   "nouăzeci"
 };
 
-static const char* STR_OH_CLOCK = "";
+static const char* STR_OH_CLOCK = "fix";
 static const char* STR_NOON = "doispe";
 static const char* STR_MIDNIGHT = "doispe";
 static const char* STR_QUARTER = "un sfert";
@@ -89,6 +89,7 @@ static size_t append_string(char* buffer, const size_t length, const char* str) 
 }
 
 void fuzzy_time_to_words(int hours, int minutes, char* words, size_t length) {
+
   int fuzzy_hours = hours;
   int fuzzy_minutes = ((minutes + 2) / 5) * 5;
 
@@ -157,7 +158,7 @@ void fuzzy_time_to_words(int hours, int minutes, char* words, size_t length) {
     }
   }
 
-  if (fuzzy_minutes == 0 && !(fuzzy_hours == 0 || fuzzy_hours == 12)) {
+  if (fuzzy_minutes == 0) {
     remaining -= append_string(words, remaining, " ");
     remaining -= append_string(words, remaining, STR_OH_CLOCK);
   }

@@ -4,7 +4,7 @@
   "longName": "Ora in Romana",
   "companyName": "Bogdan Ripa",
   "versionCode": 1,
-  "versionLabel": "1.0.0",
+  "versionLabel": "1.0.2",
   "watchapp": {
     "watchface": true
   },
